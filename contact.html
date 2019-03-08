@@ -1,0 +1,403 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Liên hệ - Công ty Cổ Phần Kem Hà Nội</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="js/owlcarousel/v2.3.4/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+        <![endif]-->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head>
+<body class="homepage">
+    <header id="header">
+        <div id="header-top" class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="top-number"><p><i class="fa fa-phone"></i>&nbsp;Hotline: 0904 408 679</p></div>
+                    </div>
+                    <div class="col-sm-6 col-xs-8">
+                        <div class="social">
+                            <ul class="social-share">
+                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+
+                            </ul>
+                            <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Tìm kiếm">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                            </div>
+                            <ul class="lang-top">
+                                <li><a href="#" title="Tiếng Việt"><img src="images/flag/vi.png" alt="Tiếng Việt" /></a></li>
+                                <li><a href="#" title="Tiếng Anh"><img src="images/flag/en.png" alt="Tiếng Anh" /></a></li>
+                            </ul>
+                            <!--Lang-->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="main-menu" class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">TRANG CHỦ</a></li>
+                        <li class="dropdown">
+                            <a href="about-us.html" class="dropdown-toggle" data-toggle="dropdown">GIỚI THIỆU <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about-us.html">Về chúng tôi</a></li>
+                                <li><a href="about-us.html">Mạng lưới cửa hàng</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="shop.html" class="dropdown-toggle" data-toggle="dropdown">KEM (Ice Cream)<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="shop.html">Kem đặc biệt</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="shop.html">Kem Sinh nhật</a></li>
+                                        <li><a href="shop.html">Kem tình nhân</a></li>
+                                        <li><a href="shop.html">Kem lựa chọn</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="shop.html">Kem cây</a></li>
+
+                            </ul>
+                        </li>
+
+                        <li><a href="news.html">TIN TỨC</a></li>
+                        <li><a href="contact.html">LIÊN HỆ</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Main Content-->
+    <section id="contact-page">
+        <div class="container">
+            <div class="row">
+                <section id="map_google" style="width: 100%; height: 400px;"></section>
+                <p>
+                    <script type="text/javascript"
+                            src="https://maps.googleapis.com/maps/api/js?sensor=false&language=vi&key=AIzaSyD_aEIsamNX3i6YE2D3bCdADtd6Vu7Xbcw&callback=initMap"></script>
+                    <script type="text/javascript">
+                                    var map;
+                                    function initialize() {
+                                        var myLatlng = new google.maps.LatLng(20.848633, 105.873240);
+                                        var myOptions = {
+                                            zoom: 15,
+                                            center: myLatlng,
+                                            mapTypeId: google.maps.MapTypeId.ROADMAP
+                                        }
+                                        map = new google.maps.Map(document.getElementById("map_google"), myOptions);
+                                        // Biến text chứa nội dung sẽ được hiển thị
+                                        var text;
+                                        text = "<b style='color:red' " +
+                                         "style='text-align:center;font-size: 12px;'>CÔNG TY CP Du lịch VI THANH</b><br />" +
+                                     "<div style='text-align:center;background:#ddd;width:100%'><img src='/img/logo1.png' width='150px'  /></div><br />" +
+                                     "Địa chỉ:  Lô CN 2A, Khu CN Quất Động phần mở rộng, xã Nguyễn Trãi, Thường Tín, Hà Nội<br />" +
+                                     "Điện thoại:  (+84) 024-37221031 - (+84) 0904408679<br/> Email: duclongkemhanoi@gmail.com, website: kemtuoihanoi.com";
+                                        var infowindow = new google.maps.InfoWindow(
+                                    {
+                                        content: text,
+                                        size: new google.maps.Size(100, 50),
+                                        position: myLatlng
+                                    });
+                                        infowindow.open(map);
+                                        var marker = new google.maps.Marker({
+                                            position: myLatlng,
+                                            map: map,
+                                            title: "IT Express Co., LTD"
+                                        });
+                                    }
+                                    //window.onload=initialize;
+                                    google.maps.event.addDomListener(window, 'load', initialize);
+                    </script>
+                </p>
+            </div>
+
+            <div class="center">
+                <h2>Gửi liên hệ</h2>
+
+                <p class="lead">Hoàn thành mẫu form sau để gửi tới chúng tôi một liên hệ.</p>
+            </div>
+            <div class="row contact-wrap">
+                <div class="status alert alert-success" style="display: none"></div>
+                <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
+                    <div class="col-sm-5 col-sm-offset-1">
+                        <div class="form-group">
+                            <label>Họ tên *</label>
+                            <input type="text" name="name" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Email *</label>
+                            <input type="email" name="email" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Điện thoại</label>
+                            <input type="number" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>Tên công ty</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="col-sm-5">
+                        <div class="form-group">
+                            <label>Tiêu đề *</label>
+                            <input type="text" name="subject" class="form-control" required="required">
+                        </div>
+                        <div class="form-group">
+                            <label>Nội dung *</label>
+                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Gửi liên hệ</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--End Main Content-->
+    <section id="partner">
+        <div class="container  owl-partner">
+            <div class="center wow fadeInDown">
+                <h2 class="my_title"> THƯƠNG HIỆU </h2>
+            </div>
+            <div class="partners owl-carousel">
+                <div class="item"><a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="upload/brand/brand-1.jpg"></a></div>
+                <div class="item"><a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="upload/brand/brand-2.jpg"></a></div>
+                <div class="item"><a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="upload/brand/brand-3.jpg"></a></div>
+                <div class="item"><a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="upload/brand/brand-4.jpg"></a></div>
+                <div class="item"><a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="upload/brand/brand-5.jpg"></a></div>
+                <div class="item"><a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="upload/brand/brand-6.jpg"></a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom">
+        <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+            <div class="row">
+                <div class="col-md-5 col-sm-6">
+                    <div class="widget">
+                        <h3 class="wg-title">THÔNG TIN</h3>
+                        <div class="textwidget">
+                            <img src="img/logo1.png" class="img-responsive" style="float:left; max-width:100px;margin-right:5px;" />
+                            <h3>CÔNG TY CP KEM HÀ NỘI</h3>
+                            <strong>Địa chỉ: </strong> Lô CN 2A, Khu CN Quất Động phần mở rộng, xã Nguyễn Trãi, Thường Tín, Hà Nội<br />
+                            <strong>Điện thoại: </strong> (+84) 024-37221031 - (+84) 0904408679<br />
+                            <strong>Email: </strong> duclongkemhanoi@gmail.com<br />
+                            <strong>Website: </strong> kemtuoihanoi.vn<br />
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="widget">
+                        <h3>Liên kết</h3>
+                        <ul>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Dịch vụ</a></li>
+                            <li><a href="#">Hỏi đáp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="widget last-footer">
+                        <h3 class="wg-title">LIÊN KẾT MXH</h3>
+                        <div class="newsletter">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fcty.itexpress%2F&amp;tabs=timeline&amp;width=340&amp;height=120&amp;small_header=true&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=362907570753735" width="340" height="120" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                        </div>
+                        <div class="widget_text">
+                            <h5 class="wg-title">Chúng tôi trên mạng xã hội</h5>
+                            <div class="textwid">
+                                <ul class="socials">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2018 <a target="_blank" href="index.html">KEM HÀ NỘI</a>. All Rights Reserved. Thiết kế bởi <a target="_blank" href="http://itexpress.vn">IT Express</a>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Trang chủ</a></li>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div id="toTop" style="display: block;">
+        <i class="fa fa-chevron-up"></i>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/owlcarousel/v2.3.4/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        $(window).on('scroll', function () {
+            if ($(window).scrollTop() > 200) {
+                $("#toTop").fadeIn();
+            } else {
+                $("#toTop").fadeOut();
+            }
+        });
+        $("#toTop").on('click', function () {
+            $("html,body").animate({
+                scrollTop: 0
+            }, 500)
+        });
+
+        $(document).ready(function () {
+            $('.partners').owlCarousel({
+                loop: true,
+                autoplay: true,
+                margin: 10,
+                nav: true,
+                navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 4,
+                        margin: 30,
+                        nav: true,
+                        loop: true
+                    }
+                }
+            });
+            $('.owl_tour').owlCarousel({
+                autoplay: true,
+                loop: true,
+                margin: 10,
+                nav: true,
+                navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 4
+                    }
+                }
+            });
+            $('.owl_event').owlCarousel({
+                autoplay: true,
+                loop: true,
+                margin: 30,
+                nav: true,
+                navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+            $('.owl_video').owlCarousel({
+                autoplay: true,
+                loop: true,
+                margin: 30,
+                nav: true,
+                navText: ['<i class="fa fa-arrow-left"></i>', '<i class="fa fa-arrow-right"></i>'],
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    600: {
+                        items: 2
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+
+    </script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/5b5b39b0df040c3e9e0c0798/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</body>
+</html>
